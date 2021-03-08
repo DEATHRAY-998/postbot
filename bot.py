@@ -24,7 +24,7 @@ def help(update, context):
 
 def echo(update, context):
     """Echo the user message."""
-    j= [-1250080502,-1305416139,-1477145399]
+    j= [-1001250080502,-1001305416139,-1001477145399]
     
     for i in range (0, 3):
            bot.sendMessage(j[i],update.message.text) 
